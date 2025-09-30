@@ -1,0 +1,18 @@
+{
+ "layer": "top",
+ "position": "top",
+ "height": 20,
+ "modules-left": ["custom/arch", "hyprland/workspaces"],
+ "modules-center": ["clock"],
+ "modules-right": ["pulseaudio", "network"],
+ 
+ "clock": {
+    "format": "{:%y-%m-%d %H:%M}"
+},
+
+"pulseaudio": {
+    "format": "vol: {volume}%",
+    "format-muted": "X",
+    "on-click": "pavucontrol"
+}
+}

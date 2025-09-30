@@ -1,0 +1,29 @@
+@import "colors.css";
+
+* {
+  font-family: JetBrainsMono Nerd Font, monospace;
+  font-size: 12px;
+  color: #ffffff;
+  }
+
+window#waybar {
+    background: @background;
+    padding: 4px 8px;
+}
+
+#workspaces button {
+    background: transparent;
+    border: none;
+    color: #aaa;
+    padding: 0 5px;
+}
+
+#workspaces button.active {
+    color: #fff;
+    background: transparent;
+}
+
+#clock, #pulseaudio, #network {
+    padding: 0 8px;
+    margin: 1px;
+}

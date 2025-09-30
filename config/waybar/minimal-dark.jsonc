@@ -1,0 +1,56 @@
+{
+  "layer": "top",
+  "position": "top",
+  "exclusive": true,
+  "height": 23,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock", "power-profiles-daemon"],
+  "modules-right": ["tray", "pulseaudio", "network"],
+
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "active": "🔘"
+        }
+},
+
+"pulseaudio": {
+  "format": "vol: {volume}%",
+  "on-click": "pavucontrol"
+},
+
+"network": {
+  "format-ethernet": "net: {ifname}"
+},
+
+"power-profiles-daemon": {
+  "format": "{icon}",
+  "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+  "tooltip": true,
+  "format-icons": {
+    "default": "",
+    "performance": "",
+    "balanced": "",
+    "power-saver": ""
+  }
+},
+
+"clock": {
+  "tooltip": false
+},
+
+"tray": {
+  "spacing": 5
+}
+
+}
+    

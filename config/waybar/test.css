@@ -1,0 +1,206 @@
+/* Material You Waybar Theme - GTK Compatible */
+
+* {
+    font-family: "Roboto", "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #e6e1e5;
+    border-radius: 16px;
+    margin: 8px;
+    padding: 4px 8px;
+}
+
+/* Workspaces */
+#workspaces {
+    background-color: #2b2930;
+    border-radius: 12px;
+    margin: 0 8px;
+    padding: 2px 4px;
+}
+
+#workspaces button {
+    background-color: transparent;
+    color: #cac4d0;
+    border-radius: 8px;
+    padding: 4px 12px;
+    margin: 2px;
+    border: none;
+}
+
+#workspaces button:hover {
+    background-color: #3e3b42;
+    color: #e6e1e5;
+}
+
+#workspaces button.active {
+    background-color: #d0bcff;
+    color: #1c1b1f;
+}
+
+#workspaces button.urgent {
+    background-color: #f2b8b5;
+    color: #601410;
+}
+
+/* Common module styling */
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#idle_inhibitor,
+#custom-power {
+    background-color: #2b2930;
+    color: #e6e1e5;
+    border-radius: 10px;
+    padding: 4px 14px;
+    margin: 0 4px;
+}
+
+/* Clock - Primary emphasis */
+#clock {
+    background-color: #d0bcff;
+    color: #1c1b1f;
+    font-weight: 600;
+    padding: 4px 16px;
+}
+
+/* Battery states */
+#battery {
+    background-color: #4a4458;
+}
+
+#battery.charging {
+    background-color: #006e1c;
+    color: #b3f2c0;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #7d5700;
+    color: #ffdea7;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #930006;
+    color: #ffb4a9;
+}
+
+/* Network states */
+#network {
+    background-color: #3e3b42;
+}
+
+#network.disconnected {
+    background-color: #4a4458;
+    color: #938f99;
+}
+
+#network.linked {
+    background-color: #006874;
+    color: #9eeffd;
+}
+
+/* Audio states */
+#pulseaudio {
+    background-color: #3e3b42;
+}
+
+#pulseaudio.muted {
+    background-color: #4a4458;
+    color: #938f99;
+}
+
+/* CPU and Memory */
+#cpu {
+    background-color: #004a77;
+    color: #b8e7ff;
+}
+
+#memory {
+    background-color: #006874;
+    color: #9eeffd;
+}
+
+/* Temperature */
+#temperature {
+    background-color: #3e3b42;
+}
+
+#temperature.critical {
+    background-color: #930006;
+    color: #ffb4a9;
+}
+
+/* Backlight */
+#backlight {
+    background-color: #7d5700;
+    color: #ffdea7;
+}
+
+/* System tray */
+#tray {
+    background-color: #2b2930;
+    padding: 4px 10px;
+}
+
+#tray > .passive {
+    opacity: 0.7;
+}
+
+#tray > .needs-attention {
+    background-color: #f2b8b5;
+    color: #601410;
+    border-radius: 8px;
+}
+
+/* Mode indicator */
+#mode {
+    background-color: #d0bcff;
+    color: #1c1b1f;
+    font-weight: 600;
+}
+
+/* Idle inhibitor */
+#idle_inhibitor {
+    background-color: #3e3b42;
+}
+
+#idle_inhibitor.activated {
+    background-color: #7d5700;
+    color: #ffdea7;
+}
+
+/* Custom power button */
+#custom-power {
+    background-color: #930006;
+    color: #ffb4a9;
+    font-weight: 600;
+    padding: 4px 12px;
+}
+
+#custom-power:hover {
+    background-color: #b31d1f;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: #2b2930;
+    color: #e6e1e5;
+    border-radius: 8px;
+    border: 1px solid #49454f;
+    padding: 8px;
+}
+
+tooltip label {
+    color: #e6e1e5;
+}
