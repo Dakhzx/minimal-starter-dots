@@ -27,8 +27,8 @@ The themes contains waybar configs for a set of wallpaper as namedm,
 Switch theme waybar refers to the switch wallpaper
 Switch-gray or switch-purple is reffered to the switch-gray and switch-purple wallpaper
 
-The themes are incompleate because they are meant to be coustomised totally by you
-path to themes config/mythemes/
+The themes are incompleate because they are meant to be coustomised totally by you.
+Path to themes = config/mythemes/
 
 ## Required dependencies
 1. Rofi- for app launching
