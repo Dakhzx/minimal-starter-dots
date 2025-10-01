@@ -37,6 +37,8 @@ The themes are incompleate because they are meant to be coustomised totally by y
 5. Matugen for material color pallets
 6. Quickshell(optional) for a simple activate linux widget
 7. Dunst for notification
+8. power-profiles-daemon for waybar power profile toggle(only in dark-minimal.jsonc and .css)
+9. network-manager-applet
 
 ## Creator and credits 
 Creator- tester-dakhs(me)
@@ -44,10 +46,10 @@ Themes-(me)
 Quickshell- Outfoxxed
 
 ## Inspirations
-1.Omarchy
-2.Material 3
-3.ml4w
-4.quickshell
+1. Omarchy
+2. Material 3
+3. ml4w
+4. quickshell
 
 ## !DISCLAIMER!
 
