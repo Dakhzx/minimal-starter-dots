@@ -17,8 +17,8 @@ You can replace the hypr folder with mine as it contains many good stuff and eas
 clone the repo by:
 For Arch-
 
-$ sudo pacman -S git
-$ git clone https://github.com/tester-dakhs/dots.git
+1. $ sudo pacman -S git
+2. $ git clone https://github.com/tester-dakhs/dots.git
 
 and ur done
 
@@ -50,6 +50,7 @@ Quickshell- Outfoxxed
 4.quickshell
 
 !DISCLAIMER!
+
 This is repo is not maintained by me or someone these dots are here for your started hyprland rice that u can clone it and replace the needed files with your orignal config and move the wallpapers to its directory or where u want.
 
 This repo is made by me and i am a kid who is 13yrs old so dont expect me to make dots with quickshell or python but however i will be posting another dots after like 3 months as i m learning python, c, c++ and qml language which will take a long time to make and i will be making it at any cost.
