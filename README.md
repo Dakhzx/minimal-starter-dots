@@ -16,8 +16,10 @@ These dots are not full dots and are meant to copy the folder
 You can replace the hypr folder with mine as it contains many good stuff and easy keybinds and a minimal dark waybar at start
 clone the repo by:
 For Arch-
+
 $ sudo pacman -S git
 $ git clone https://github.com/tester-dakhs/dots.git
+
 and ur done
 
 ## Themes(incompleate)
@@ -42,12 +44,12 @@ Themes-(me)
 Quickshell- Outfoxxed
 
 ## Inspirations
--Omarchy
--Material 3
--ml4w
--quickshell
------------------------------
+1.Omarchy
+2.Material 3
+3.ml4w
+4.quickshell
 
+!DISCLAIMER!
 This is repo is not maintained by me or someone these dots are here for your started hyprland rice that u can clone it and replace the needed files with your orignal config and move the wallpapers to its directory or where u want.
 
 This repo is made by me and i am a kid who is 13yrs old so dont expect me to make dots with quickshell or python but however i will be posting another dots after like 3 months as i m learning python, c, c++ and qml language which will take a long time to make and i will be making it at any cost.
