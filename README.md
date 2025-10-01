@@ -44,7 +44,7 @@ but trust the themes and waybar configs u will love it.
 ## Required dependencies
 1. Rofi- for app launching
 2. Waybar- as default bar
-3. Cava for in built terminal
+3. Cava for in built terminal visualiser
 4. Btop for system monitoring
 5. Matugen for material color pallets
 6. Quickshell(optional) for a simple activate linux widget
