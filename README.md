@@ -30,6 +30,17 @@ Switch-gray or switch-purple is reffered to the switch-gray and switch-purple wa
 The themes are incompleate because they are meant to be coustomised totally by you.
 Path to themes = config/mythemes/
 
+## NOTE 
+The waybar configs and css are named as their theme so u can pair the waybar config and css with the right wallpaper
+for best asthetics and there are extra minimal wallpapers in the folder.
+
+There are more than 2 styles of waybar so I strongly recommend launching waybar with -c and -s
+to tell the jsonc and css file so waybar can load from that file.
+
+## Screenshots
+For now there are no screenshtos because for a reason my hyprland got reset after posting these dots
+but trust the themes and waybar configs u will love it.
+
 ## Required dependencies
 1. Rofi- for app launching
 2. Waybar- as default bar
@@ -60,3 +71,9 @@ This repo is made by me and i am a kid who is 13yrs old so dont expect me to mak
 
 ## !!!!!!!!IMPORTANT!!!!!!!!!!!
 Ahh another note to read right? well this is really important as dont know how to make a theme switcher for hyprland so i have left some waybar configs at mythemes folder in .config it was there for my theme but i dont know how to make it so i left the configs and css files in there, the waybar themes actually are related to some wallpapers like the default one is related to purple leaves wallpaper and other like switch are related to switch wallpaper, another last thing is that there is a zshrc in there so if u like it just add a dot before its name and move to ur .config.  
+
+
+
+
+
+And thats it enjoy the dots!. 
