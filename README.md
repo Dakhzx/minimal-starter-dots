@@ -49,7 +49,7 @@ Quickshell- Outfoxxed
 3.ml4w
 4.quickshell
 
-!DISCLAIMER!
+## !DISCLAIMER!
 
 This is repo is not maintained by me or someone these dots are here for your started hyprland rice that u can clone it and replace the needed files with your orignal config and move the wallpapers to its directory or where u want.
 
