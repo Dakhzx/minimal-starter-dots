@@ -41,6 +41,9 @@ to tell the jsonc and css file so waybar can load from that file.
 For now there are no screenshtos because for a reason my hyprland got reset after posting these dots
 but trust the themes and waybar configs u will love it.
 
+## Generated Colors
+The generated colors u see are made by matugen the wallpaper used here is mono-loupe one
+
 ## Required dependencies
 1. Rofi- for app launching
 2. Waybar- as default bar
