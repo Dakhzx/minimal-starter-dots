@@ -1,13 +1,56 @@
 ---------------------------------------------------
 
 Hi there if you are reading this cuz u probably found this dots laying in github.
+
+My minimalist rice :
+A clean minimal rice made for u for a starter ricing journey.
+
+## Features
+This rice features a couple of waybar configs with css files in the config file
+A simple rofi theme based on wallpaper loupe that u can find in the wallpapers folder
+Color pallets based one wallpaper loupe 
+Minimal and super lightweight with power profile daemon(minimal-dark.jsonc and minimal-dark.css in waybar folder)
+
+## Cloning 
+These dots are not full dots and are meant to copy the folder
+You can replace the hypr folder with mine as it contains many good stuff and easy keybinds and a minimal dark waybar at start
+clone the repo by
+For Arch
+$ sudo pacman -S git
+$ git clone https://github.com/tester-dakhs/dots.git
+and ur done
+
+## Themes(incompleate)
+The themes contains waybar configs for a set of wallpaper as named
+Switch theme waybar refers to the switch wallpaper
+Switch-gray or switch-purple is reffered to the switch-gray and switch-purple wallpaper
+
+The themes are incompleate because they are meant to be coustomised totally by you
+
+## Required dependencies
+1. Rofi- for app launching
+2. Waybar- as default bar
+3. Cava for in built terminal
+4. Btop for system monitoring
+5. Matugen for material color pallets
+6. Quickshell(optional) for a simple activate linux widget
+7. Dunst for notification
+
+## Creator and credits 
+Creator- tester-dakhs(me)
+Themes-(me)
+Quickshell- Outfoxxed
+
+## Inspirations
+Omarchy
+Material 3
+ml4w
+quickshell
+
 ~~~~~~~~~
 This is repo is not maintained by me or someone these dots are here for your started hyprland rice that u can clone it and replace the needed files with your orignal config and move the wallpapers to its directory or where u want.
 
 This repo is made by me and i am a kid who is 13yrs old so dont expect me to make dots with quickshell or python but however i will be posting another dots after like 3 months as i m learning python, c, c++ and qml language which will take a long time to make and i will be making it at any cost.
 
 !!!!!!!!IMPORTANT!!!!!!!!!!!
-Ahh another note to read right? well this is really important as dont know how to make a theme switcher for hyprland so i have left some waybar configs at mythemes folder in .config it was there for my theme but i dont know how to make it so i left the configs and css files in there, the waybar themes actually are related to some wallpapers like the default one is related to purple leaves wallpaper and other like switch are related to switch wallpaper, another last thing is that there is a zshrc in there so if u like it just add a dot before its name and move to ur .config.
-
-
-AND THAT'S IT ENJOY
+Ahh another note to read right? well this is really important as dont know how to make a theme switcher for hyprland so i have left some waybar configs at mythemes folder in .config it was there for my theme but i dont know how to make it so i left the configs and css files in there, the waybar themes actually are related to some wallpapers like the default one is related to purple leaves wallpaper and other like switch are related to switch wallpaper, another last thing is that there is a zshrc in there so if u like it just add a dot before its name and move to ur .config.  
