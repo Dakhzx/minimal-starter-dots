@@ -55,6 +55,8 @@ The generated colors u see are made by matugen the wallpaper used here is mono-l
 7. Dunst for notification
 8. power-profiles-daemon for waybar power profile toggle(only in dark-minimal.jsonc and .css)
 9. network-manager-applet
+10. Alacritty as terminal emulator(alacritty.toml in config)
+11. Fish or zsh for looks or ease of use
 
 ## Creator and credits 
 Creator- tester-dakhs(me)
