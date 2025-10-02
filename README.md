@@ -29,6 +29,7 @@ Switch-gray or switch-purple is reffered to the switch-gray and switch-purple wa
 
 The themes are incompleate because they are meant to be coustomised totally by you.
 Path to themes = config/mythemes/
+The waybar config andd css named dark-minimal must be applied with the wallpaper mono(any)
 
 ## NOTE 
 The waybar configs and css are named as their theme so u can pair the waybar config and css with the right wallpaper
