@@ -40,6 +40,7 @@ to tell the jsonc and css file so waybar can load from that file.
 
 ## Screenshots
 ![image](https://github.com/Dakhzx/minimal-starter-dots/blob/158a6770cb1d1d1a4d4a9a51bc7c0308d78d478a/rice.png)
+![image](https://github.com/Dakhzx/minimal-starter-dots/blob/06371643e909ba9546b77ad57bb875ff960f5a0d/rice2.png)
 
 ## Generated Colors
 The generated colors u see are made by matugen the wallpaper used here is mono-loupe one
