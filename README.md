@@ -39,7 +39,7 @@ There are more than 2 styles of waybar so I strongly recommend launching waybar 
 to tell the jsonc and css file so waybar can load from that file.
 
 ## Screenshots
-[image][https://github.com/Dakhzx/minimal-starter-dots/blob/158a6770cb1d1d1a4d4a9a51bc7c0308d78d478a/rice.png]
+![image_alt][https://github.com/Dakhzx/minimal-starter-dots/blob/158a6770cb1d1d1a4d4a9a51bc7c0308d78d478a/rice.png]
 
 ## Generated Colors
 The generated colors u see are made by matugen the wallpaper used here is mono-loupe one
