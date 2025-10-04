@@ -1,4 +1,4 @@
-@import "colors.css";
+
 
 * {
   font-family: JetBrainsMono Nerd Font, monospace;
@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-    background: @background;
+    background: #000;
     padding: 4px 8px;
 }
 
