@@ -1,0 +1,179 @@
+/* Material Design 3 Waybar Theme - Pill Shaped Modules */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Roboto", "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* Tooltip styling */
+tooltip {
+    background: #2b2b2b;
+    border-radius: 16px;
+    border: 1px solid #3d3d3d;
+    padding: 4px 12px;
+}
+
+tooltip label {
+    color: #e8eaed;
+}
+
+/* Default module styling - pill shaped */
+#workspaces,
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+    background: #2b2b2b;
+    padding: 3px 16px;
+    margin: 6px 4px;
+    border-radius: 20px;
+    color: #5C729D;
+    transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* Workspace buttons */
+#workspaces {
+    padding: 4px 8px;
+}
+
+#workspaces button {
+    padding: 2px 12px;
+    border-radius: 16px;
+    color: #9aa0a6;
+    background: transparent;
+    transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+    margin: 0 2px;
+}
+
+#workspaces button:hover {
+    background: #3d3d3d;
+    color: #e8eaed;
+}
+
+#workspaces button.active {
+    background: #8ab4f8;
+    color: #000000;
+}
+
+#workspaces button.urgent {
+    background: #f28b82;
+    color: #000000;
+}
+
+/* Clock - primary accent */
+#clock {
+    background: #8ab4f8;
+    color: #000000;
+    font-weight: 600;
+    padding: 6px 20px;
+}
+
+/* Battery states */
+#battery.charging {
+    background: #81c995;
+    color: #000000;
+}
+
+#battery.warning:not(.charging) {
+    background: #fdd663;
+    color: #000000;
+}
+
+#battery.critical:not(.charging) {
+    background: #f28b82;
+    color: #000000;
+    animation: blink 1s ease-in-out infinite;
+}
+
+
+/* Network states */
+#network.disconnected {
+    background: #3d3d3d;
+    color: #9aa0a6;
+}
+
+/* Volume states */
+#pulseaudio.muted {
+    background: #3d3d3d;
+    color: #9aa0a6;
+}
+
+/* System tray */
+#tray {
+    padding: 6px 12px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background: #f28b82;
+}
+
+/* Hover effects */
+#workspaces button:hover,
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#tray:hover,
+#idle_inhibitor:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Idle inhibitor */
+#idle_inhibitor.activated {
+    background: #8ab4f8;
+    color: #000000;
+}
+
+/* Temperature warning */
+#temperature.critical {
+    background: #f28b82;
+    color: #000000;
+}
+
+/* CPU/Memory warning states */
+#cpu.warning,
+#memory.warning {
+    background: #fdd663;
+    color: #000000;
+}
+
+#cpu.critical,
+#memory.critical {
+    background: #f28b82;
+    color: #000000;
+}
+
+/* Custom spacing for different positions */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 8px;
+}
+
+.modules-right > widget:last-child > * {
+    margin-right: 8px;
+}
