@@ -44,7 +44,7 @@ to tell the jsonc and css file so waybar can load from that file.
 ![desktop view](https://github.com/Dakhzx/minimal-starter-dots/blob/b089f9af08bf0d675d7dbf507f2f695525a2a8e4/desktop.png)
 
 ## Generated Colors
-The generated colors u see are made by matugen the wallpaper used here is mono-loupe one
+The generated colors u see in folders are made by matugen the wallpaper used here is mono-loupe one
 
 ## Required dependencies
 1. Rofi- for app launching
