@@ -10,28 +10,33 @@ window#waybar {
 }
 
 #workspaces {
-    background: rgba(56, 44, 106, 0.7);
+    background: transparent;
     border-radius: 13px;
     color: transparent;
 }
 
 #workspaces button {
-    background: rgba(56, 44, 106, 0.1);
+    background: #6A6986;
     border: none;
-    border-radius: 60%;
-    padding: 4px 7px;
+   /* border-radius: 60%;*/
+    padding: 4px 10px;
     color: transparent;
+    margin : 1px 1px;
+    border-radius: 13px;
 }
 
 #workspaces button.active {
-    background: rgba(255, 255, 255, 0.1);
+    background: #6D358A;
     border: none;
     color: transparent;
+    padding: 4px 17px;
+    border-radius: 13px;
+
 }
 
-#workspaces button:hover {
-    padding: 0px 10px;
-}
+/*#workspaces button:hover {
+   padding: 0px 10px;
+}*/
 
 #clock, #pulseaudio, #network {
     padding: 4px 16px;
