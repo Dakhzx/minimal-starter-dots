@@ -2,10 +2,10 @@
 
 echo "applying nes omarchy inspired theme"
 
-swww img /home/dakhs/Downloads/1-nes.png
-wal -i /home/dakhs/Pictures/1-nes.png
+swww img /minimal-starter-dots/wallpapers/1-nes.png
+wal -i /minimal-starter-dots/wallpapers/1-nes.png
 pkill waybar
-waybar -c /home/dakhs/.config/waybar/minimal-dark.jsonc -s /home/dakhs/.config/waybar/minimal-dark.css &
+waybar -c .config/waybar/minimal-dark.jsonc -s .config/waybar/minimal-dark.css &
 disown
 clear
 fastfetch
