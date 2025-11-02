@@ -2,10 +2,10 @@
 
 echo "applying theme..."
 
-swww img /home/dakhs/minimal-starter-dots/wallpapers/switch-gray.jpg
-wal -i /home/dakhs/minimal-starter-dots/wallpapers/switch-gray.jpg
+swww img /minimal-starter-dots/wallpapers/switch-gray.jpg
+wal -i /minimal-starter-dots/wallpapers/switch-gray.jpg
 pkill waybar
-waybar -c /home/dakhs/.config/waybar/switch-gray.jsonc -s /home/dakhs/.config/waybar/switch-gray.css &
+waybar -c .config/waybar/switch-gray.jsonc -s .config/waybar/switch-gray.css &
 disown
 
 clear
