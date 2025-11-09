@@ -1,0 +1,85 @@
+* {
+    font-family:
+        JetBrainsMono Nerd Font,
+        monospace;
+    font-size: 12px;
+    color: transparent;
+}
+
+window#waybar {
+    background: transparent;
+    border-radius: 13px;
+}
+
+#workspaces {
+    background: rgba(60, 60, 60, 0.9);
+    border-radius: 9px;
+    color: transparent;
+    /*border: 1px solid #ffffff;*/
+}
+
+#workspaces button {
+    background: rgba(60, 60, 60, 0.8);
+    border: 1px solid #fff;
+    padding: 1px 6px;
+    color: transparent;
+    margin: 1px 1px;
+    border-radius: 60%;
+    transition:
+        background-color 0.4s ease-in-out,
+        color 0.4s ease-in-out;
+}
+
+#workspaces button.active {
+    background: rgba(250, 249, 246, 0.8);
+    border: none;
+    color: transparent;
+    padding: 1px 7px;
+    margin: 1px 1px;
+    border-radius: 60%;
+}
+
+/*#workspaces button:hover {
+   padding: 0px 10px;
+}*/
+
+#clock,
+#pulseaudio,
+#network {
+    padding: 4px 16px;
+    background: rgba(60, 60, 60, 1);
+    border-radius: 10px;
+    margin: 0px 2px;
+    color: #ffe5ba;
+}
+
+.modules-left {
+  border-radius: 9px;
+  background: rgba(70, 70, 70, 0.7)
+}
+
+.modules-right {
+  /*  border: 1px solid #fff;*/
+    border-radius: 9px;
+    background: rgba(70, 70, 70, 0.7);
+
+}
+
+#custom-sp {
+  color: #ffffff;
+}
+
+#cpu {
+    color: #fff;
+    padding: 4px 16px;
+    background: rgba(60, 60, 60, 1);
+    border-radius: 10px;
+}
+
+
+#workspaces button:hover {
+    color: transparent;
+    background: transparent;
+}
+
+
